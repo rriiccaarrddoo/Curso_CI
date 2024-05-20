@@ -24,7 +24,7 @@ jobs:
     - name: Build-DB
       run: docker-compose build
       
-    - name: Create-DB1
+    - name: Create-DB
       run: docker-compose up -d
 
     - name: Test
